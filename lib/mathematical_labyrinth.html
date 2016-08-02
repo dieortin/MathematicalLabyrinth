@@ -1,0 +1,104 @@
+<!-- import polymer-element's definition -->
+<link rel="import" href="../../packages/polymer/polymer.html">
+<link rel="import" href="../../packages/core_elements/core_animation.html">
+
+<polymer-element name="mathematical-labyrinth">
+    <template>
+        <style>
+            :host {
+                display: block;
+                border: 2px double #cc0000;
+                width: 80%;
+                padding: 2%;
+                margin: 25px auto auto auto;
+                min-height: 300px;
+            }
+
+            div {
+                margin: 0;
+            }
+
+            li {
+                display: block;
+                width: auto;
+                color: #ffffff;
+                cursor: pointer;
+                margin: 0 auto;
+                padding: 5px;
+                background-color: #585858;
+                border: 4px inset #a7a7a7;
+                border-radius: 5px;
+            }
+
+            ul {
+                list-style: none;
+                display: inline-block;
+            }
+
+            div.historyText {
+                display: inline-block;
+            }
+
+            div.timerLabel {
+                background-color: white;
+                color: #cc0000;;
+                width: auto;
+                min-width: 60px;
+                height: 50px;
+                position: fixed;
+                horiz-align: right;
+                top: 100px;
+                right: 0;
+                box-shadow: #a7a7a7 0 0 13px 2px;
+                border-radius: 13px;
+                border-bottom-right-radius: 0;
+                border-top-right-radius: 0;
+                border: inset #cc0000 4px;
+                border-right: none;
+                padding-right: 3px;
+                padding-top: 5px;
+            }
+            
+            div.timerLabel.shown {
+                display: inline-block;
+            }
+            
+            div.timerLabel.hidden {
+                display: none;
+            }
+
+            div.timerLabel span {
+                font-size: 2.5em;
+                display: block;
+                text-align: center;
+            }
+
+        </style>
+        <div id="activeNodeContainer">
+            <div id="historyText">
+                <div class="historyText">{{historyText}}</div>
+                <div class="timerLabel {{timerLabelClass}}">
+                    <span id="timerLabel">{{timerLabel}}</span>
+                </div>
+            </div>
+            <div id="choices">
+                <ul>
+                    <template repeat="{{choice in choices}}">
+                        <li link="{{choice['link']}}" on-click="{{handleChoice}}">{{choice['text']}}</li><br>
+                    </template>
+                </ul>
+            </div>
+        </div>
+        <button on-click="{{testAllNodes}}">Test every node in the file</button>
+
+        <core-animation id="activeNodeContainerFadeIn" duration="500">
+            <core-animation-keyframe>
+                <core-animation-prop name="opacity" value="0"></core-animation-prop>
+            </core-animation-keyframe>
+            <core-animation-keyframe>
+                <core-animation-prop name="opacity" value="1"></core-animation-prop>
+            </core-animation-keyframe>
+        </core-animation>
+    </template>
+    <script type="application/dart" src="mathematical_labyrinth.dart"></script>
+</polymer-element>

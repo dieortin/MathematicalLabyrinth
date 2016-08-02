@@ -1,0 +1,1726 @@
+﻿{
+  "start": {
+    "text": "Tras largas jornadas de camino por la selva, has llegado por fin a tu destino. Nadie quiso acompañarte porque nadie creía que aquel viejo manuscrito que hablaba de una gran tesoro escondido en la cripta de un templo perdido en medio de la selva amazónica, fuese auténtico. Nadie, salvo tú, pudo descifrar los glifos de esa antigua civilización de amantes de las matemáticas que describían el camino y nadie tuvo el valor de atravesar ríos donde los cocodrilos y las pirañas vigilan sin descanso, ciénagas infestadas de mosquitos, zonas de matorral invadidas de reptiles venenosos... Ahora todas esas penalidades quedan atrás. Ante ti se abre la puerta de un antiguo templo ahora cubierto de vegetación que es la prueba de que lo que el manuscrito decía es cierto. Al menos, en parte, porque ¿cuál puede ser el tesoro ante el que los poderosos se humillan y los corazones de los sabios se alegran? Estás a punto de averiguarlo. Sólo tienes que entrar, encontrarlo y volver a salir. Quizá no resulte fácil. Habrá obstáculos que superar y trampas que evitar. . Una mala elección podría costarte muy cara. Y has de ser rápido. Si esperas demasiado tiempo en un mismo sitio, el peligro aumenta. Recuerda que la selva te rodea. Pero un buscador de tesoros tiene que buscar también el tesoro más preciado por los sabios: el conocimiento. Has de aprovechar para trazar un mapa de tu recorrido, apuntando las distancias y las direcciones en las que te desplazas, dónde están los obstáculos, los cruces... Y, finalmente, dónde está el tesoro. Tendrás que tomar notas para que no se te olviden los detalles y dar cuenta precisa de tu aventura cuando vuelvas al mundo civilizado. Ahora, en cuanto estés mentalmente preparado y dispuesto a superar esta prueba, mira al interior estrecho y oscuro del templo, enciende tu linterna, respira hondo y...",
+    "choices": [
+      {
+        "text": "Entra",
+        "link": "1N"
+      }
+    ]
+  },
+  "1S": {
+    "text": "La puerta se abre rechinando sobre sus goznes. Tras recorrer 1 km de túnel hacia el N, encuentras una puerta cerrada con un laberinto pintado sobre ella. En 2 minutos el monstruo te alcanzará. Te encuentras con tres cajas una caja de color rosa, una caja de color verde y otra de color azul. La llave que abre la puerta del laberinto está en una de ellas. Cada caja tiene un mensaje escrito en el exterior: CAJA ROSA: La llave está en esta caja CAJA VERDE: La llave no está en esta caja CAJA AZUL: “La llave no está en la caja rosa. A lo sumo, uno de los tres mensajes es verdadero. Sólo puedes abrir una caja. ¿Cuál abrirás? ",
+    "choices": [
+      {
+        "text": "Caja rosa",
+        "link": "repetir1S"
+      },
+      {
+        "text": "Caja azul",
+        "link": "repetir1S"
+      },
+      {
+        "text": "Caja verde",
+        "link": "salida"
+      }
+    ],
+    "time": {
+      "seconds": "120",
+      "link": ""
+    },
+    "repeating": "false"
+  },
+  "1N": {
+    "text": "Has recorrido 1 km de túnel hacia el S y encuentras una puerta cerrada con un laberinto pintado sobre ella. Un monstruo ha entrado en el túnel y sólo tienes 2 minutos para poder pasar a puerta y huir de él. Hay varias llaves debajo de una pregunta: El monstruo de este laberinto es macho y tiene el mismo número de hermanos que de hermanas. Cada una de sus hermanas tiene el doble de hermanos que de hermanas. Cuántos hijos e hijas tienen los monstruosos padres del monstruo del laberinto?",
+    "choices": [
+      {
+        "text": "Llave 1: 2 hijos y una hija",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 2: 2 hijos y 2 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 3: 3 hijos y 2 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 4: 2 hijos y 3 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 5: 4 hijos y 3 hijas",
+        "link": "2N"
+      },
+      {
+        "text": "Llave 6: 4 hijos y 4 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 7: 4 hijos y 2 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 8: 1 hijo y 3 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 9: 5 hijos y 3 hijas",
+        "link": "repetir1N"
+      },
+      {
+        "text": "Llave 10: 1 hijo y ninguna hija",
+        "link": "repetir1N"
+      }
+    ],
+    "time": "120"
+  },
+  "2N": {
+    "text": "Acertaste. La puerta se ha abierto y has seguido huyendo del monstruo. Has recorrido otro km de túnel hacia el S, pero encuentras una puerta cerrada con un dragón dorado pintado sobre ella. En 2 minutos el monstruo te alcanzará. Hay varias llaves debajo de una pregunta: Los lados iguales de un triángulo isósceles A miden 10 metros, y el tercer lado mide 16 metros. En otro triángulo isósceles B los lados iguales miden también 10 metros y el tercero 12 metros. ¿Cuál tiene más superficie? ",
+    "choices": [
+      {
+        "text": "El triángulo isósceles A",
+        "link": "repetir2N"
+      },
+      {
+        "text": "El triángulo isósceles B",
+        "link": "repetir2N"
+      },
+      {
+        "text": "Miden lo mismo",
+        "link": "3N"
+      },
+      {
+        "text": "No se puede saber, faltan datos",
+        "link": "repetir2N"
+      }
+    ],
+    "time": "120"
+  },
+  "2S": {
+    "text": "Has vuelto hacia el norte, de cara al monstruo, sobre el que has pasado dando un salto. Ahora está enfurecido! Tras recorrer 1 km de túnel hacia el N, encuentras una puerta cerrada con un dragón dorado en relieve. En 2 minutos el monstruo te alcanzará. Hay varias llaves debajo de una pregunta: Para numerar todas las páginas de un libro se han utilizado 642 dígitos ¿Cuántas páginas numeradas tiene? ",
+    "choices": [
+      {
+        "text": "Llave A: 642 páginas numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave B: 321 páginas numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave C: 1284 páginas numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave D: 1282 páginas numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave E: 500 páginas numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave F: 250 páginas numeradas",
+        "link": "3N"
+      },
+      {
+        "text": "Llave G: no se puede saber numeradas",
+        "link": "repetir2S"
+      },
+      {
+        "text": "Llave H: 1000 páginas numeradas",
+        "link": "repetir2S"
+      }
+    ],
+    "time": "120"
+  },
+  "3N": {
+    "text": "Estupendo. La puerta se ha abierto. Caminas 1 km hacia el S y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides: ",
+    "choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N sobre el que pone Las matemáticas son un conjunto de reglas independientes entre sí",
+        "link": "2S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone Las matemáticas no sirven para nada",
+        "link": "10N"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E sobre el que pone Las matemáticas son el único lenguaje universal",
+        "link": "7W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el pone Las matemáticas son el lenguaje en el que está escrito el Libro de la Naturaleza",
+        "link": "4E"
+      }
+    ],
+    "time": "120"
+  },
+  "3S": {
+    "text": "Justo a tiempo. Con esa llave la puerta se ha abierto y has podido huir del tentáculo, que ya no puede estirarse más. Recorres 1km más hacia el N y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides: ",
+    "choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N sobre el que pone Las matemáticas son un conjunto de reglas independientes entre sí",
+        "link": "2S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone Las matemáticas no sirven para nada",
+        "link": "10N"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E sobre el que pone Las matemáticas son el único lenguaje universal",
+        "link": "7W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el pone Las matemáticas son el lenguaje en el que está escrito el Libro de la Naturaleza",
+        "link": "4E"
+      }
+    ],
+    "time": "120"
+  },
+  "3W": {
+    "text": "Justo a tiempo. La puerta se ha abierto. Las momias han tropezado con sus propias vendas y se han liado en el suelo. Has escapado. Caminas 1 km mas hacia el E y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides: ",
+    "choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N sobre el que pone Las matemáticas son un conjunto de reglas independientes entre sí",
+        "link": "2S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone Las matemáticas no sirven para nada",
+        "link": "10N"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E sobre el que pone Las matemáticas son el único lenguaje universal",
+        "link": "7W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el pone Las matemáticas son el lenguaje en el que está escrito el Libro de la Naturaleza",
+        "link": "4E"
+      }
+    ],
+    "time": "120"
+  },
+  "3E": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente porque pparece que las caras de mayas de los glifos están empezando a mirarte mal. No te pasa nada. Caminas 1 km mas hacia el W  y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides: ",
+    "choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N sobre el que pone Las matemáticas son un conjunto de reglas independientes entre sí",
+        "link": "2S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone Las matemáticas no sirven para nada",
+        "link": "10N"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E sobre el que pone Las matemáticas son el único lenguaje universal",
+        "link": "7W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el pone Las matemáticas son el lenguaje en el que está escrito el Libro de la Naturaleza",
+        "link": "4E"
+      }
+    ],
+    "time": "120"
+  },
+  "4E": {
+    "text": "Has despistado al monstruo. Has recorrido 1 km de túnel hacia el O, pero encuentras otra puerta cerrada con una serpiente de color sangre pintada sobre ella. Al parecer has activado un mecanismo que hace que los muros de los lados se aproximen. ¡Vas a morir aplastado si no cruzas pronto la puerta! Hay varias llaves debajo de una pregunta: Joaquín tiene un número de teléfono un tanto raro. Tiene 9 cifras, empieza en 9 y termina en 8, y al sumar tres cifras consecutivas cuales quiera del número siempre obtenemos 22.¿Cuál es el número de Joaquín?",
+    "choices": [
+      {
+        "text": "Llave a:985988558 ",
+        "link": "repetir4E"
+      },
+      {
+        "text": "Llave b:955668598",
+        "link": "repetir4E"
+      },
+      {
+        "text": "Llave c: 999998888",
+        "link": "repetir4E"
+      },
+      {
+        "text": "Llave d: 989899898",
+        "link": "repetir4E"
+      },
+      {
+        "text": "Llave e: 958958958",
+        "link": "5E"
+      },
+      {
+        "text": "Llave f: 979725598",
+        "link": "repetir4E"
+      }
+    ],
+    "time": "120"
+  },
+  "4W": {
+    "text": "Has recorrido 1 km de túnel hacia el E, pero encuentras otra puerta cerrada con una serpiente de color sangre pintada sobre ella. Sospechas que las momias de la sala anterior te están persiguiendo. ¡Te podrían atrapar entre sus dedos vendados si no cruzas pronto la puerta! Hay varias llaves debajo de una pregunta.Tenemos dos velas de distinta altura. La más larga mide 14 cm y tarda en consumirse 7 horas, mientras que la más corta, que es más ancha, tarda en consumirse 11 horas. Se encienden las dos velas al mismo tiempo y al cabo de tres horas se apagan. En ese momento tienen las dos la misma altura. ¿Qué altura tenía al principio la vela corta? ",
+    "choices": [
+      {
+        "text": "Llave a: 11cm",
+        "link": "3W"
+      },
+      {
+        "text": "Llave b: 22cm",
+        "link": "repetir4W"
+      },
+      {
+        "text": "Llave c: 7cm",
+        "link": "repetir4W"
+      },
+      {
+        "text": "Llave d: 5cm",
+        "link": "repetir4W"
+      },
+      {
+        "text": "Llave e: 10cm",
+        "link": "repetir4W"
+      },
+      {
+        "text": "Llave f: 2cm",
+        "link": "repetir4W"
+      }
+    ],
+    "time": "120"
+  },
+  "5E": {
+    "text": "Justo a tiempo. La puerta se ha abierto. Las momias han tropezado con sus propias vendas y se han liado en el suelo. Has escapado. Caminas 1 km mas hacia el E y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos;, con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: La raíz del producto es igual al producto de las raíces",
+        "link": "9NW"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E pone sobre el que pone: La potencia del producto es igual al producto de las potencias",
+        "link": "4W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: El cuadrado de la suma es igual a la suma de los cuadrados",
+        "link": "2"
+      }
+    ],
+    "time": "120"
+  },
+  "5NW": {
+    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba y, caminas raíz de 2 kms hacia el NW, dejando atrá al tentáculo que no puede estirarse más para alcanzarte y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos;, con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: La raíz del producto es igual al producto de las raíces",
+        "link": "9NW"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E pone sobre el que pone: La potencia del producto es igual al producto de las potencias",
+        "link": "4W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: El cuadrado de la suma es igual a la suma de los cuadrados",
+        "link": "2"
+      }
+    ],
+    "time": "120"
+  },
+  "6": {
+    "text": "El cuadro de la suma NO es la suma de los cuadrados. Las momias se abalanzan sobre tu cuerpo indefenso (e ignorante) que sucumbe (merecidamente) a su perversa fuerza. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "7E": {
+    "text": "Has dejado atrás el veneno. Recorres 1 km de túnel hacia el O, pero encuentras otra puerta cerrada con lo que parecen glifos mayas inscritos sobre ella que parecen contener una maldición. Por si acaso, es mejor que cruces la puerta cuanto antes. Hay varias llaves debajo de una pregunta: De los 60 alumnos que practican deporte en un colegio, un 55% practica futbol, el 24% practica baloncesto, el 6% se dedica a la natación y el resto juega al tenis. ¿Cuántos alumnos de ese colegio juegan al tenis?",
+    "choices": [
+      {
+        "text": "Llave a: 7 alumnos juegan al tenis.",
+        "link": "repetir7E"
+      },
+      {
+        "text": "Llave b: 8 alumnos juegan al tenis.",
+        "link": "repetir7E"
+      },
+      {
+        "text": "Llave c: 9 alumnos juegan al tenis.",
+        "link": "3E"
+      },
+      {
+        "text": "Llave d: 10 alumnos juegan al tenis.",
+        "link": "repetir7E"
+      },
+      {
+        "text": "Llave e: 11 alumnos juegan al tenis.",
+        "link": "repetir7E"
+      }
+    ],
+    "time": "120"
+  },
+  "7W": {
+    "text": "Has despistado al monstruo. Has recorrido 1 km de túnel hacia el E, pero encuentras otra puerta cerrada con lo que parecen glifos mayas inscritos sobre ella que parecen contener una maldición. Por si acaso, es mejor que cruces la puerta cuanto antes. Hay varias llaves debajo de una pregunta: En una clase hay más de 40 alumnos, pero menos de 50. Si los agrupamos de 3 en 3 sobra 1 y si los agrupamos de 4 en 4 sobran 2. ¿Cuántos alumnos son chicos si hay 27 chicas?",
+    "choices": [
+      {
+        "text": "Llave a: 14 chicos",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave b: 15 chicos.",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave c: 16 chicos.",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave d: 17 chicos.",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave e: 18 chicos",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave f: 19 chicos.",
+        "link": "8W"
+      },
+      {
+        "text": "Llave g: 20 chicos.",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave h: 21 chicos.",
+        "link": "repetir7W"
+      },
+      {
+        "text": "Llave i: 22 chicos.",
+        "link": "repetir7W"
+      }
+    ],
+    "time": "120"
+  },
+  "8W": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente porque parece que las caras de mayas de los glifos están empezando a mirarte mal. No te pasa nada. Caminas 1 km más hacia el E y llegas a una sala de la que parten 7 oscuros pasadizos. El interior está decorado con lo que parecen ser jeroglíficos egipcios, de los más antiguos. De repente, se oye un siseo, como el aire escapando de una cámara de bicicleta pinchada. Se percibe un ligero olor a almendras podridas. ¿Será un veneno? ¡Hay que marcharse de aquí a toda prisa! Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el N sobre el que pone : Un medio dividido por dos, es la unidad",
+        "link": "30"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Noroeste sobre el que  pone: Diferencia por diferencia, diferencia de cuadrados",
+        "link": "35"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: Suma por diferencia, diferencia de cuadrados",
+        "link": "7E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Suroeste sobre el que  pone: Dos tercios por tres medios es la unidad ",
+        "link": "11NE"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone: El cuadrado de la raíz de tres es tres ",
+        "link": "13N"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: Dos partido por raíz de dos es raíz de dos ",
+        "link": "14NW"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el E sobre el que pone: La raíz cuadrada de 27 es 3 por la raíz de 3",
+        "link": "18W"
+      }
+    ],
+    "time": "120"
+  },
+  "8S": {
+    "text": "Justo a tiempo. Con esa llave la puerta se ha abierto y has podido huir del tentáculo, que ya no puede estirarse más. Recorres 2 km más hacia el N y llegas a una sala de la que parten 7 oscuros pasadizos. El interior está decorado con lo que parecen ser jeroglíficos egipcios, de los más antiguos. De repente, se oye un siseo, como el aire escapando de una cámara de bicicleta pinchada. Se percibe un ligero olor a almendras podridas. ¿Será un veneno? ¡Hay que marcharse de aquí a toda prisa! Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el N sobre el que pone : Un medio dividido por dos, es la unidad",
+        "link": "30"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Noroeste sobre el que  pone: Diferencia por diferencia, diferencia de cuadrados",
+        "link": "35"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: Suma por diferencia, diferencia de cuadrados",
+        "link": "7E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Suroeste sobre el que  pone: Dos tercios por tres medios es la unidad ",
+        "link": "11NE"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone: El cuadrado de la raíz de tres es tres ",
+        "link": "13N"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: Dos partido por raíz de dos es raíz de dos ",
+        "link": "14NW"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el E sobre el que pone: La raíz cuadrada de 27 es 3 por la raíz de 3",
+        "link": "18W"
+      }
+    ],
+    "time": "120"
+  },
+  "8E": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente y la vuelves a cerrar, dejando atrás el horrible zumbido que anunciaba tu muerte. Caminas 1 km más hacia el W y llegas a una sala de la que parten 7 oscuros pasadizos. El interior está decorado con lo que parecen ser jeroglíficos egipcios, de los más antiguos. De repente, se oye un siseo, como el aire escapando de una cámara de bicicleta pinchada. Se percibe un ligero olor a almendras podridas. ¿Será un veneno? ¡Hay que marcharse de aquí a toda prisa! Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el N sobre el que pone : Un medio dividido por dos, es la unidad",
+        "link": "30"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Noroeste sobre el que  pone: Diferencia por diferencia, diferencia de cuadrados",
+        "link": "35"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: Suma por diferencia, diferencia de cuadrados",
+        "link": "7E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Suroeste sobre el que  pone: Dos tercios por tres medios es la unidad ",
+        "link": "11NE"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone: El cuadrado de la raíz de tres es tres ",
+        "link": "13N"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: Dos partido por raíz de dos es raíz de dos ",
+        "link": "14NW"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el E sobre el que pone: La raíz cuadrada de 27 es 3 por la raíz de 3",
+        "link": "18W"
+      }
+    ],
+    "time": "120"
+  },
+  "8SW": {
+    "text": "Justo a tiempo. Con esa llave la puerta se ha abierto y has podido huir del tentáculo, que ya no puede estirarse más. Recorres raíz 2 km más hacia el NE  y llegas a una sala de la que parten 7 oscuros pasadizos. El interior está decorado con lo que parecen ser jeroglíficos egipcios, de los más antiguos. De repente, se oye un siseo, como el aire escapando de una cámara de bicicleta pinchada. Se percibe un ligero olor a almendras podridas. ¿Será un veneno? ¡Hay que marcharse de aquí a toda prisa! Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el N sobre el que pone : Un medio dividido por dos, es la unidad",
+        "link": "30"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Noroeste sobre el que  pone: Diferencia por diferencia, diferencia de cuadrados",
+        "link": "35"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: Suma por diferencia, diferencia de cuadrados",
+        "link": "7E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Suroeste sobre el que  pone: Dos tercios por tres medios es la unidad ",
+        "link": "11NE"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone: El cuadrado de la raíz de tres es tres ",
+        "link": "13N"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: Dos partido por raíz de dos es raíz de dos ",
+        "link": "14NW"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el E sobre el que pone: La raíz cuadrada de 27 es 3 por la raíz de 3",
+        "link": "18W"
+      }
+    ],
+    "time": "120"
+  },
+  "8SE": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente alejándote del los vampiros, que te pierden la pista. Caminas 2 raíz de 2 km más hacia el NW y llegas a una sala de la que parten 7 oscuros pasadizos. El interior está decorado con lo que parecen ser jeroglíficos egipcios, de los más antiguos. De repente, se oye un siseo, como el aire escapando de una cámara de bicicleta pinchada. Se percibe un ligero olor a almendras podridas. ¿Será un veneno? ¡Hay que marcharse de aquí a toda prisa! Decides:",
+    "choices": [
+      {
+        "text": "Tomar  el túnel que va hacia el N sobre el que pone : Un medio dividido por dos, es la unidad",
+        "link": "30"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Noroeste sobre el que  pone: Diferencia por diferencia, diferencia de cuadrados",
+        "link": "35"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el O sobre el que pone: Suma por diferencia, diferencia de cuadrados",
+        "link": "7E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el Suroeste sobre el que  pone: Dos tercios por tres medios es la unidad ",
+        "link": "11NE"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S sobre el que pone: El cuadrado de la raíz de tres es tres ",
+        "link": "13N"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el SE sobre el que pone: Dos partido por raíz de dos es raíz de dos ",
+        "link": "14NW"
+      },
+      {
+        "text": "Tomar  el túnel que va hacia el E sobre el que pone: La raíz cuadrada de 27 es 3 por la raíz de 3",
+        "link": "18W"
+      }
+    ],
+    "time": "120"
+  },
+  "9NW": {
+    "text": "Has recorrido raíz de 2 kms de túnel hacia el SE, pero encuentras otra puerta cerrada por una espesa tela de araña. Hay una tarántula gigante vigilando. A tu izquierda hay un armario con puertas de cristal. Dentro se ven botes de insecticida, pero la puerta está cerrada. Necesitas el insecticida o la tarántula te picará. Es posible que las momias de la sala anterior te estén persiguiendo. Has de seguir tu camino cuanto antes! A la derecha hay varias llaves debajo de una pregunta: Un hombre quiere dejar de fumar y toma la determinación de hacerlo. Mira sus reservas de tabaco y ve que tiene 27 cigarrillos. Decide que se fumará lo que le queda y dejará de fumar. Pero cuando se ha fumado los 27 cigarrillos ve que con cada tres colillas puede hacer un cigarrillo más, así que sigue fumando hasta que solo le queda una colilla. ¿Cuántos cigarrillos habrá fumado en total?",
+    "choices": [
+      {
+        "text": "Llave a: 33 cigarrillos",
+        "link": "repetir9NW"
+      },
+      {
+        "text": "Llave b: 30 cigarrillos.",
+        "link": "repetir9NW"
+      },
+      {
+        "text": "Llave c: 27 cigarrillos.",
+        "link": "repetir9NW"
+      },
+      {
+        "text": "Llave d: 40 cigarrillos.",
+        "link": "12NW"
+      },
+      {
+        "text": "Llave e: 35 cigarrillos.",
+        "link": "repetir9NW"
+      },
+      {
+        "text": "Llave f: 32 cigarrillos.",
+        "link": "repetir9NW"
+      },
+      {
+        "text": "Llave g: 28 cigarrillos.",
+        "link": "repetir9NW"
+      }
+    ],
+    "time": "120"
+  },
+  "9SE": {
+    "text": "Has recorrido raíz de 2 kms de túnel hacia el NW, pero encuentras otra puerta cerrada por una espesa tela de araña. Hay una tarántula gigante vigilando y se ven los cadáveres de varias tarántulas y los esqueletos de varios exploradores. A tu izquierda hay un armario con puertas de cristal. Dentro se ven botes de insecticida, pero la puerta está cerrada. Necesitas el insecticida o la tarántula te picará. Además, un tentáculo más sano que el que has saltado ¡se te está acercando! ¡Has de seguir tu camino cuanto antes! A la derecha hay varias llaves debajo de una pregunta: 'Has podido acceder a las últimas llamadas realizadas desde el móvil de un presunto atracador. Las llamadas fueron realizadas a las 20:03, a las 20:15 y a las 20:31. Estas llamadas fueron realizadas a un compañero de trabajo, a su abogado y a su mujer, no necesariamente en este orden. Sabiendo que el móvil del compañero acaba en 8, que el número al que ha llamado a las 20:31 acaba en 7 y que llamó a su mujer antes que al abogado, ¿cuál de las siguientes afirmaciones es correcta?'",
+    "choices": [
+      {
+        "text": "Llave a:  El móvil del abogado no acaba en 7",
+        "link": "repetir9SE"
+      },
+      {
+        "text": "Llave b: El compañero fue el último a quien llamó.",
+        "link": "repetir9SE"
+      },
+      {
+        "text": "Llave c: El atracador llamó al abogado a las 20:31.",
+        "link": "5NW"
+      }
+    ],
+    "time": "120"
+  },
+  "10N": {
+    "text": "El monstruo (que empieza a recordarte a tu profesor de matemáticas) parece más enfurecido por haber elegido este túnel y se dirige hacia ti con los ojos inyectados en sangre. Tras correr 1 km de túnel hacia el sur encuentras otra puerta cerrada con una llama infernal pintada sobre ella. Hay varias llaves debajo de una pregunta: 'Javier tiene sus calcetines en un cajón. Tiene 4 calcetines blancos, 6 negros y 10 azules. Un día se fue la luz y tuvo que tantear a ciegas para sacar un par de calcetines que ponerse. ¿Cuántos tiene que sacar como mínimo para estar seguro de tener un par del mismo color? ¿ Y cuántos para tener seguro un par de cada color?'",
+"choices": [
+      {
+        "text": "Llave a: 3 calcetines y 20 calcetines.",
+        "link": "repetir10N"
+      },
+      {
+        "text": "Llave b: 6 calcetines y 12 calcetines.",
+        "link": "repetir10N"
+      },
+      {
+        "text": "Llave c: 4 calcetines y 18 calcetines.",
+        "link": "12N"
+      },
+      {
+        "text": "Llave d: 3 calcetines y 18 calcetines.",
+        "link": "repetir10N"
+      },
+      {
+        "text": "Llave e: 6 calcetines y 18 calcetines.",
+        "link": "repetir10N"
+      }
+    ],
+    "time": "120"
+  },
+  "10S": {
+    "text": "Este tentáaculo era débil de verdad. Has saltado sobre él y has recorrido 1 km hacia el N. Encuentras otra puerta cerrada con una llama infernal pintada sobre ella. Oyes algo raro tras de tí... Miras atrás y ves la punta de un tentáculo que se te acerca con ventosas babeantes. Hay que salir de aquí!! Hay varias llaves debajo de una pregunta: La familia Pulpo tiene 7 hijos. La suma de las edades del primero y el cuarto es de 9 años; la del primero y el sexto 8 años; la del segundo y el quinto es también de 8 años; la del segundo y el tercero es de 9 años; la del tercero y el sexto es de 6 años; la del cuarto y el séptimo es de 4 años, al igual que la del séptimo y el quinto. ¿Cuáles son las edades? ",
+"choices": [
+      {
+        "text": "Llave a: 7 ,6, 4, 4, 2, 2, 1 años.",
+        "link": "repetir10S"
+      },
+      {
+        "text": "Llave b:  7, 6, 5, 4, 3, 2, 1 años.",
+        "link": "repetir10S"
+      },
+      {
+        "text": "Llave c: 6, 6, 5, 4, 3, 2, 1 años.",
+        "link": "repetir10S"
+      },
+      {
+        "text": "Llave d: 7, 5, 5, 4, 3, 2, 1 años.",
+        "link": "repetir10S"
+      },
+      {
+        "text": "Llave e: 6, 5, 4, 3, 3, 2, 1 años.",
+        "link": "3S"
+      },
+      {
+        "text": "Llave f: 6, 5, 4, 4, 3, 2, 1 años.",
+        "link": "repetir10S"
+      }
+    ],
+    "time": "120"
+  },
+"11NE": {
+    "text": "Dejas atrás el gas venenoso y tras caminar raíz de 2 km hacia el SO encuentras otra puerta cerrada con una estrella verde de siete puntas pintada sobre ella. Conforme pasa el tiempo, parado ante ella, empiezas a oler otra vez el gas venenoso. Aguantas la respiración, pero no vas a poder aguantarla mucho tiempo. Hay que huir de aquí!! Hay varias llaves debajo de una pregunta: Si colocas cuatro monedas idénticas formando un cuadrado y tocándose dos a dos, observarás que en su interior queda un cuadrado de lados curvos. Si el diámetro de cada moneda es de 4 cm ¿Cuál es el área de ese “cuadrado”?.",
+"choices": [
+      {
+        "text": "Llave a: 16 cm².",
+        "link": "repetir11NE"
+      },
+      {
+        "text": "Llave b: 13.73 cm²",
+        "link": "12NE"
+      },
+      {
+        "text": "Llave c: 4 cm²",
+        "link": "repetir11NE"
+      },
+      {
+        "text": "Llave d: 16.3 cm²",
+        "link": "repetir11NE"
+      },
+      {
+        "text": "Llave e: 3.7 cm²",
+        "link": "repetir11NE"
+      },
+      {
+        "text": "Llave f: 54.27 cm²",
+        "link": "repetir11NE"
+      }
+    ],
+    "time": "120"
+  },
+  "11SW": {
+    "text": "Este tentáculo era de los débiles. Le has dado una patada y le has apartado de tu camino. Recorres raíz de 2 km hacia el NE y encuentras otra puerta cerrada con una estrella verde de siete puntas pintada sobre ella. Oyes algo raro tras de tí... Miras atrás y ves la punta de un tentáculo sano que se te acerca con ventosas babeantes. Hay que salir de aquí!! Hay varias llaves debajo de una pregunta: En cada una de las orillas del río Gondor (que tiene 20 m de anchura) hay una palmera, una de 8m y otra de 12m de altura. Desde la copa de cada una de ellas se lanzan al mismo tiempo y a la misma velocidad dos flechas para que se claven en una esfera que flora en el río. Las dos flechas llegan al mismo tiempo. ¿A qué distancia de la orilla está la esfera?",
+"choices": [
+      {
+        "text": "Llave a: a 10 m de una orilla y 10 m de la otra.",
+        "link": "repetir11SW"
+      },
+      {
+        "text": "Llave b: a 15 m de una orilla y 5 m de la otra.",
+        "link": "repetir11SW"
+      },
+      {
+        "text": "Llave c: a 13 m de una orilla y 7 m de la otra.",
+        "link": "repetir11SW"
+      },
+      {
+        "text": "Llave d: a 11 m de una orilla y 9 m de la otra.",
+        "link": "repetir11SW"
+      },
+      {
+        "text": "Llave e: a 14 m de una orilla y 6 m de la otra.",
+        "link": "repetir11SW"
+      },
+      {
+        "text": "Llave f: a 12 m de una orilla y 8 m de la otra.",
+        "link": "8SW"
+      }
+    ],
+    "time": "120"
+  },
+  "12N": {
+    "text": "Llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el N en el que pone: Dos triángulos con los 3 lados iguales son iguales",
+        "link": "10S"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NO en el que pone: Dos triángulos con 2 lados y el ángulo que forman iguales, son iguales.",
+        "link": "9SE"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el O en el que  pone: La hipotenusa es igual a la suma de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SO en el que  pone: La hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el S en el que  pone: Dos triángulos con los 3 ángulos iguales son iguales.",
+        "link": "33"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SE en el que  pone: Un triángulo con dos ángulos rectos se llama triángulo birrectángulo.",
+        "link": "34"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el E en el que  pone; La base de un triángulo es igual al doble de la semibase. ",
+        "link": "13W"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NE en el que  pone: El cuadrado de la suma es igual a la suma de los cuadrados.",
+        "link": "11SW"
+      }
+    ],
+    "time": "120"
+  },
+  "12E": {
+    "text": "Justo a tiempo. Con esa llave la puerta se ha abierto y has podido huir del huir del gas venenoso. Recorres 2 km más hacia el W y llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el N en el que pone: Dos triángulos con los 3 lados iguales son iguales",
+        "link": "10S"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NO en el que pone: Dos triángulos con 2 lados y el ángulo que forman iguales, son iguales.",
+        "link": "9SE"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el O en el que  pone: La hipotenusa es igual a la suma de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SO en el que  pone: La hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el S en el que  pone: Dos triángulos con los 3 ángulos iguales son iguales.",
+        "link": "33"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SE en el que  pone: Un triángulo con dos ángulos rectos se llama triángulo birrectángulo.",
+        "link": "34"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el E en el que  pone; La base de un triángulo es igual al doble de la semibase. ",
+        "link": "13W"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NE en el que  pone: El cuadrado de la suma es igual a la suma de los cuadrados.",
+        "link": "11SW"
+      }
+    ],
+    "time": "120"
+  },
+  "12NW": {
+    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba y, cuando te das la vuelta y ves a las momias, se lo echas también! Asustadas, las momias se vuelven a sus sarcófagos y tu rompes la tela de araña y caminas raíz de 2 kms hacia el SE y llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el N en el que pone: Dos triángulos con los 3 lados iguales son iguales",
+        "link": "10S"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NO en el que pone: Dos triángulos con 2 lados y el ángulo que forman iguales, son iguales.",
+        "link": "9SE"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el O en el que  pone: La hipotenusa es igual a la suma de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SO en el que  pone: La hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el S en el que  pone: Dos triángulos con los 3 ángulos iguales son iguales.",
+        "link": "33"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SE en el que  pone: Un triángulo con dos ángulos rectos se llama triángulo birrectángulo.",
+        "link": "34"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el E en el que  pone; La base de un triángulo es igual al doble de la semibase. ",
+        "link": "13W"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NE en el que  pone: El cuadrado de la suma es igual a la suma de los cuadrados.",
+        "link": "11SW"
+      }
+    ],
+    "time": "120"
+  },
+  "12NE": {
+    "text": "Justo a tiempo. Con esa llave la puerta se ha abierto y has podido salir corriendo. Recorres raíz 2 km más hacia el SO y llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
+    "choices": [
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el N en el que pone: Dos triángulos con los 3 lados iguales son iguales",
+        "link": "10S"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NO en el que pone: Dos triángulos con 2 lados y el ángulo que forman iguales, son iguales.",
+        "link": "9SE"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el O en el que  pone: La hipotenusa es igual a la suma de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SO en el que  pone: La hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "link": "31"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el S en el que  pone: Dos triángulos con los 3 ángulos iguales son iguales.",
+        "link": "33"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el SE en el que  pone: Un triángulo con dos ángulos rectos se llama triángulo birrectángulo.",
+        "link": "34"
+      },
+      {
+        "text": "Tomas el tentáculo  que está sobre el túnel que va hacia el E en el que  pone; La base de un triángulo es igual al doble de la semibase. ",
+        "link": "13W"
+      },
+      {
+        "text": "Tomas el tentáculo que está sobre el túnel que va hacia el NE en el que  pone: El cuadrado de la suma es igual a la suma de los cuadrados.",
+        "link": "11SW"
+      }
+    ],
+    "time": "120"
+  },
+  "13N": {
+    "text": "Recorres 2 km más hacia el S y, en medio de una curva hacia el O encuentras otra puerta cerrada con una estrella de cinco puntas pintada sobre ella. Conforme pasa el tiempo, parado ante ella, empiezas a oler otra vez el gas venenoso. Aguantas la respiración, pero no vas a poder aguantarla mucho tiempo. Hay varias llaves debajo de una pregunta: Si a la mitad del tiempo transcurrido desde el mediodía le sumas la cuarta parte del tiempo que falta hasta medianoche, tendrás exactamente la hora que marcan las agujas de mi reloj ¿Qué hora es?.",
+"choices": [
+      {
+        "text": "Llave a: las seis de la tarde.",
+        "link": "repetir13N"
+      },
+      {
+        "text": "Llave b: las dos de la tarde.",
+        "link": "repetir13N"
+      },
+      {
+        "text": "Llave c: las siete de la tarde.",
+        "link": "repetir13N"
+      },
+      {
+        "text": "Llave d: las cinco de la tarde.",
+        "link": "repetir13N"
+      },
+      {
+        "text": "Llave e: las cuatro de la tarde.",
+        "link": "12E"
+      },
+      {
+        "text": "Llave f: las tres de la tarde.",
+        "link": "repetir13N"
+      }
+    ],
+    "time": "120"
+  },
+"13W": {
+    "text": "Este tentáculo era débil de verdad. Le has dado una patada y le has apartado de tu camino. Recorres 2 km más hacia el E y, en medio de una curva hacia el N encuentras otra puerta cerrada con una estrella de cinco puntas pintada sobre ella. Oyes algo raro tras de tí... Miras atrás y ves la punta de un tentáculo sano que se te acerca con ventosas babeantes. Hay que salir de aquí!! Hay varias llaves debajo de una pregunta.: Observa que al dividir 70 entre 13 obtienes 5 de cociente y cinco de resto.¿Además de 70, hay más números, menores de 200 que al dividirlos entre 13 el cociente sea igual quel resto?",
+"choices": [
+      {
+        "text": "Sí, hay dos números más que cumplen esa condición.",
+        "link": "repetir13W"
+      },
+      {
+        "text": "Sí, hay doce números que cumplen esa condición",
+        "link": "8S"
+      },
+      {
+        "text": "Sí, hay cinco números más que cumplen esa condición.",
+        "link": "repetir13W"
+      },
+      {
+        "text": "Sí, hay siete números más que cumplen esa condición. ",
+        "link": "repetir13W"
+      },
+      {
+        "text": "No, sólo se cumple para 70 ",
+        "link": "repetir13W"
+      },
+      {
+        "text": "Sí, hay 100 números más que cumplen esa condición. ",
+                "link": "repetir13W"
+      }
+    ],
+    "time": "120"
+  },
+  "14NW": {
+    "text": "Recorres 2 raíz de 2 km más hacia el SE y, en medio de una curva hacia el E encuentras otra puerta cerrada con el símbolo del dios egipcio Amón-Ra (que no Ramón). Conforme pasa el tiempo, parado ante ella, empiezas a oler otra vez el gas venenoso. Aguantas la respiración, pero no vas a poder aguantarla mucho tiempo. Hay varias llaves debajo de una pregunta: 'El empleado de una bodega debe de preparar l envío de botellas de vino dentro de cajas con capacidad para 8, para 12 o para 15 botellas. Observa que si usa cajas de 8, le sobran 6 botellas; con las cajas de 12 , le siguen sobrando 6 botellas y lo mismo sucede con las cajas de 15. Sabiendo que tiene que colocar entre 300 y 400 botellas, ¿cuál es el número exacto de botellas que tiene?'.",
+"choices": [
+      {
+        "text": "Llave a: 310.",
+        "link": "repetir14NW"
+      },
+      {
+        "text": "Llave b: 355.",
+        "link": "repetir14NW"
+      },
+      {
+        "text": "Llave c: 366.",
+        "link": "15W"
+      },
+      {
+        "text": "Llave d: 333.",
+        "link": "repetir14NW"
+      },
+      {
+        "text": "Llave e: 375.",
+        "link": "repetir14NW"
+      },
+      {
+        "text": "Llave f: 399.",
+                "link": "repetir14NW"
+      }
+    ],
+    "time": "120"
+  },
+  "14E": {
+    "text": "Recorres 1 km más hacia el E y, en medio de una curva hacia el NW encuentras otra puerta cerrada con el símbolo del dios egipcio Amón-Ra (que no Ramón). El ruido de miles de alas batiendo el pestífero aire del pasadizo anuncia la llegada de los vampiros, que te han seguido. Hay que huir de aquí. Hay varias llaves debajo de una pregunta: 'Tres amigos deciden comer juntos. Uno de ellos (A) aporta 5 platos; otro (B), 3 platos. El tercero (C) no aporta nada, pero dice que pagará lo suyo. Suponiendo que todos los platos tienen el mismo valor, C paga, de acuerdo con los demás, 800 um. ¿Cómo se deben de repartir A y B esa cantidad?'",
+"choices": [
+      {
+        "text": "Llave a: A 700um, B 100um.",
+        "link": "8SE"
+      },
+      {
+        "text": "Llave b: A 500um y B 300um.",
+        "link": "repetir14E"
+      },
+      {
+        "text": "Llave c: A 600um y B 200um.",
+        "link": "repetir14E"
+      },
+      {
+        "text": "Llave d: A:400um y B 400um.",
+        "link": "repetir14E"
+      },
+      {
+        "text": "Llave e: A:300um y B 500um.",
+        "link": "repetir14E"
+      },
+      {
+        "text": "Llave f: A:100um y B 700um.",
+                "link": "repetir14E"
+      }
+    ],
+    "time": "120"
+  },
+  "15W": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente y te alejas del gas venenoso y vuelves a respirar aire puro con ansiedad. Caminas 1 km más hacia el E y llegas a una sala de la que parten 3 tenebrosos pasadizos. Al iluminar ocn tu linterna la bóveda ves que de ella cuelgan cientos de murciélagos... o quizá sean vampiros. La luz les despierta y empiezan a agitarse. Es cuestión de segundos que se percaten de tu presencia y te ataquen. Hay que salir corriendo, pero, en qué dirección? Rápidamente decides: ",
+"choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N en el que pone: Dos triángulos son semejantes cuando tienen sus lados proporcionales o sus ángulos iguales.",
+        "link": "16S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E  en el que pone: Dos triángulos son semejantes cuando tienen sus ángulos proporcionales o sus lados iguales.",
+        "link": "29"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el W   en el que pone: Dos triángulos son iguales cuando tienen dos lados y un ángulo iguales.",
+        "link": "14E"
+      }
+    ],
+    "time": "120"
+  },
+  "15N": {
+    "text": "La puerta se ha abierto y  la cruzas rápidamente y la vuelves a cerrar, dejando atrás el horrible zumbido que anunciaba tu muerte. Caminas 1 km hacia el S  y llegas a una sala de la que parten 3 tenebrosos pasadizos. Al iluminar ocn tu linterna la bóveda ves que de ella cuelgan cientos de murciélagos... o quizá sean vampiros. La luz les despierta y empiezan a agitarse. Es cuestión de segundos que se percaten de tu presencia y te ataquen. Hay que salir corriendo, pero, en qué dirección? Rápidamente decides: ",
+"choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N en el que pone: Dos triángulos son semejantes cuando tienen sus lados proporcionales o sus ángulos iguales.",
+        "link": "16S"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E  en el que pone: Dos triángulos son semejantes cuando tienen sus ángulos proporcionales o sus lados iguales.",
+        "link": "29"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el W   en el que pone: Dos triángulos son iguales cuando tienen dos lados y un ángulo iguales.",
+        "link": "14E"
+      }
+    ],
+    "time": "120"
+  },
+  "16N": {
+    "text": "Recorres 1 km más hacia el sur y encuentras otra puerta de hierro fundido negro cerrada. El zumbido de miles de minúsculas alas batiendo el petífero aire del pasadizo anuncia la llegada de las avispas, que te han seguido. Hay que huir de aquí. Hay varias llaves debajo de una pregunta: Dos amigos deben de recorrer un trayecto AB de 10km. Uno de ellos tiene una bicicleta, el otro va a pie. Ninguno de ellos quiere ir sentado en el cuadro de la bicicleta. El primero dice: “ Voy a hacer 1 km a pie, mientras tú haces 1 km en bicicleta. Dejarás la bicicleta para que pueda usarla yo para hacer 1km mientras tú haces 1 km a pie y así sucesivamente. Cada uno usará la bicicleta y andará alternativamente, el peatón recorriendo 1 km en 10 minutos y el ciclista, 1km en 4 minutos.” “De acuerdo -responde el segundo-. Pero ¿crees que ganaremos tiempo teniendo en cuenta que siempre va a haber uno uno que va a ir pie?",
+"choices": [
+      {
+        "text": "Llave a: No, tardan lo mismo.",
+        "link": "repetir16N"
+      },
+      {
+        "text": "Llave b: Sí, ganarán 20 minutos.",
+        "link": "repetir16N"
+      },
+      {
+        "text": "Llave c: No, perderán 20 minutos.",
+        "link": "repetir16N"
+      },
+      {
+        "text": "Llave d: Sí, ganarán 40 minutos.",
+        "link": "repetir16N"
+      },
+      {
+        "text": "Llave e: No, perderán 40 minutos.",
+        "link": "repetir16N"
+      },
+      {
+        "text": "Llave f:Sí, ganarán 60 minutos. ",
+        "link": "15N"
+      },
+      {
+        "text": "Llave f:No, perderán 60 minutos. ",
+        "link": "repetir16N"
+      }
+    ],
+    "time": "120"
+  },
+  "16S": {
+    "text": "Recorres 1 km más hacia el norte y encuentras otra puerta de hierro fundido negro cerrada. El ruido de miles de alas batiendo el pestífero aire del pasadizo anuncia la llegada de los vampiros, que te han seguido. Hay que huir de aquí. Hay varias llaves debajo de una pregunta: 'Cuatro tapiceros tejen cuatro tapices en cuatro días. ¿Cuántos tapiceros son necesarios para tejer veinte tapices en veinte días?'",
+"choices": [
+      {
+        "text": "Llave a: 40 tapiceros.",
+        "link": "repetir16S"
+      },
+      {
+        "text": "Llave b: 20 tapiceros.",
+        "link": "repetir16S"
+      },
+      {
+        "text": "Llave c: 12 tapiceros.",
+        "link": "repetir16S"
+      },
+      {
+        "text": "Llave d: 8 tapiceros.  ",
+        "link": "repetir16S"
+      },
+      {
+        "text": "Llave e: 4 tapiceros.",
+        "link": "17S"
+      },
+      {
+        "text": "Llave f: 2 tapiceros.",
+        "link": "repetir16S"
+      }
+    ],
+    "time": "120"
+  },
+  "17E": {
+    "text": "La puerta se ha abierto y  la cruzas rápidamente y esta vez, aunque las termitas están empezando a pasar, te aseguras de dejarla herméticamente cerrada. Caminas 1 Km hacia el W y y llegas a una sala de la que parten 4 pasadizos inmundos llenos de aire viciado y húmedo. Al desplazarte tocas con la cabeza la bóveda, que es muy baja y al fijarte ves que se trata de decenas de enjambres de avispas caníbales. No te puedes parar a pensar queé harán ahí esas avispas porque al tocar su enjambre las has despertado y se empieza a oír un zumbido que crece. Hay que salir corriendo, pero, en qué dirección?.Rápidamente decides: ",
+"choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N, en el que  pone: 101 es 8 en base 2.",
+        "link": "19"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E, en el que  pone: 101 es 10 en base 3.",
+        "link": "20W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el W, en el que  pone: 101 es 17 en base 4. ",
+        "link": "18E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S,, en el que  pone: 101 es 26 en base 5. ",
+        "link": "16N"
+      }
+    ],
+    "time": "120"
+  },
+  "17W": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente y te alejas del gas venenoso y vuelves a respirar aire puro con ansiedad. Caminas 2 km más hacia el E y llegas a una sala de la que parten 4 pasadizos inmundos llenos de aire viciado y húmedo. Al desplazarte tocas con la cabeza la bóveda, que es muy baja y al fijarte ves que se trata de decenas de enjambres de avispas caníbales. No te puedes parar a pensar queé harán ahí esas avispas porque al tocar su enjambre las has despertado y se empieza a oír un zumbido que crece. Hay que salir corriendo, pero, en qué dirección?.Rápidamente decides: ",
+"choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N, en el que  pone: 101 es 8 en base 2.",
+        "link": "19"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E, en el que  pone: 101 es 10 en base 3.",
+        "link": "20W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el W, en el que  pone: 101 es 17 en base 4. ",
+        "link": "18E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S,, en el que  pone: 101 es 26 en base 5. ",
+        "link": "16N"
+      }
+    ],
+    "time": "120"
+  },
+  "17S": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente alejándote del los vampiros, que te pierden la pista y tendrán que ayunar. Caminas 1 km más hacia el N  y llegas a una sala de la que parten 4 pasadizos inmundos llenos de aire viciado y húmedo. Al desplazarte tocas con la cabeza la bóveda, que es muy baja y al fijarte ves que se trata de decenas de enjambres de avispas caníbales. No te puedes parar a pensar queé harán ahí esas avispas porque al tocar su enjambre las has despertado y se empieza a oír un zumbido que crece. Hay que salir corriendo, pero, en qué dirección?.Rápidamente decides: ",
+"choices": [
+      {
+        "text": "Tomar el túnel que va hacia el N, en el que  pone: 101 es 8 en base 2.",
+        "link": "19"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el E, en el que  pone: 101 es 10 en base 3.",
+        "link": "20W"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el W, en el que  pone: 101 es 17 en base 4. ",
+        "link": "18E"
+      },
+      {
+        "text": "Tomar el túnel que va hacia el S,, en el que  pone: 101 es 26 en base 5. ",
+        "link": "16N"
+      }
+    ],
+    "time": "120"
+  },
+"18E": {
+    "text": "Recorres 2 km más hacia el oeste y encuentras otra puerta cerrada con un hexágono grabado a fuego sobre ella. Conforme pasa el tiempo, parado ante ella, empiezas a oír un zumbido que crece gradualmente. Deben de ser las avispas caníbales! Hay que pasar al otro lado de la puerta cuanto antes! Hay varias llaves debajo de una pregunta: 'Un frutero llega al mercado con cierto número de melones. Al primer cliente le vende la mitad de los melones que llevaba y medio melón. Al segundo cliente la mitad de los melones que le quedan y medio melón. Al tercero le vende la mitad de lo que le queda y medio melón. Ya no le queda nada. ¿Cuántos melones tenía cuando llegó al mercado?'",
+"choices": [
+      {
+        "text": "Llave a: 7 melones.",
+        "link": "8E"
+      },
+      {
+        "text": "Llave b: 8 melones.",
+        "link": "repetir18E"
+      },
+      {
+        "text": "Llave c: 12 melones.",
+        "link": "repetir18E"
+      },
+      {
+        "text": "Llave d: 22 melones.",
+        "link": "repetir18E"
+      },
+      {
+        "text": "Llave e: 49 melones.",
+        "link": "repetir18E"
+      },
+      {
+        "text": "Llave f: 128 melones.",
+        "link": "repetir18E"
+      }
+    ],
+    "time": "120"
+  },
+  "18W": {
+    "text": "Recorres 1 km más hacia el este y encuentras otra puerta cerrada con un hexágono grabado a fuego sobre ella. Conforme pasa el tiempo, parado ante ella, empiezas a oler otra vez el gas venenoso. Aguantas la respiración, pero no vas a poder aguantarla mucho tiempo. Hay varias llaves debajo de una pregunta: Dos circunferencias de radios 2 y 3 son tangentes exteriores y además las dos son a su vez tangentes interiores a una tercera circunferencia. Calcula el área, en cm², de la circunferencia grande que no está ocupada por las circunferencias pequeñas (interiores a ella).",
+"choices": [
+      {
+        "text": "Llave a: 3 pi ",
+        "link": "8W"
+      },
+      {
+        "text": "Llave b: 4 pi",
+        "link": "repetir18W"
+      },
+      {
+        "text": "Llave c: 6 pi",
+        "link": "repetir18W"
+      },
+      {
+        "text": "Llave d: 12 pi ",
+        "link": "17W"
+      },
+      {
+        "text": "Llave e: 9 pi ",
+        "link": "repetir18W"
+      },
+      {
+        "text": "Llave f: 10 pi",
+        "link": "repetir18W"
+      }
+    ],
+    "time": "120"
+  },
+  "20W": {
+    "text": "Recorres 1 km más hacia el este y encuentras otra puerta cerrada decorada con símbolos cabalísticos y letras del alfabeto hebreo. El zumbido de miles de minúsculas alas batiendo el pestífero aire del pasadizo anuncia la llegada de las avispas, que te han seguido. Hay que huir de aquí. Hay varias llaves debajo de una pregunta: 'Un anticuario llega a su casa por la noche y le dice a su esposa: Esta mañana he vendido un jarrón chino por 200000 um, perdiendo un 20% sobre el precio de compra. Pero por la tarde he vendido otro jarrón por 200000um, ganando un 25% sobre su precio de compra. Finalmente el negocio del día me salió bien. ¿Estás seguro? le respondió la esposa'.",
+"choices": [
+      {
+        "text": "Llave a: Si. El alfarero gana 10000um.",
+        "link": "repetir20W"
+      },
+      {
+        "text": "Llave b: No. El alfarero ha perdido 10000um. ",
+        "link": "21W"
+      },
+      {
+        "text": "Llave c: El alfarero ni gana ni pierde.",
+        "link": "repetir20W"
+      },
+      {
+        "text": "Llave d: Si. El alfarero gana 1000um.",
+        "link": "repetir20W"
+      },
+      {
+        "text": "Llave e: No. El alfarero pierde 1000um.",
+        "link": "repetir20W"
+      },
+      {
+        "text": "Llave f: Si. El alfarero gana 100 um.",
+        "link": "repetir20W"
+      }
+    ],
+    "time": "120"
+  },
+  "21W": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente y la vuelves a cerrar, dejando atrás el horrible zumbido que anunciaba tu muerte. Caminas 1 km más hacia el E y encuentras una curiosa puerta cerrada con agujeros por los que podrín entrar los dedos de una mano. Quizá se abra se metes el dedo en el orificio correcto. Hay una pregunta escrita sobre la puerta, e inscripciones sobre los agujeros. El zumbido de miles de minúsculas alas batiendo el petífero aire del pasadizo anuncia la llegada de las avispas. Hay que huir de aquí. Pero hay que aprender a cerrar mejor las puertas! Te has debido de dejar una rendija... ¿Cuál de los siguientes enunciados es falso?",
+"choices": [
+      {
+        "text": "Agujero para el pulgar:Todos los triángulos equiláteros son convexos.",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el anular: Todos los triángulos equiláteros son polígonos regulares.",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el meñique: Todos los triángulos equiláteros son semejantes entre sí . ",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el índice: Todos los triángulos equiláteros son equiángulos. ",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el corazón: Todos los triángulos equiláteros son iguales entre sí . ",
+        "link": "22W"
+      }
+    ],
+    "time": "120"
+  },
+  "21E": {
+    "text": "",
+"choices": [
+      {
+        "text": "Agujero para el pulgar:Todos los triángulos equiláteros son convexos.",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el anular: Todos los triángulos equiláteros son polígonos regulares.",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el meñique: Todos los triángulos equiláteros son semejantes entre sí . ",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el índice: Todos los triángulos equiláteros son equiángulos. ",
+        "link": "repetir21W"
+      },
+      {
+        "text": "Agujero para el corazón: Todos los triángulos equiláteros son iguales entre sí . ",
+        "link": "22W"
+      }
+    ],
+    "time": "120"
+  },
+  "22": {
+    "text": "Caminas 1 km más hacia el E y Llegas a una sala de la que parten 4 pasadizos estrechos inmundos llenos de un aire cada vez más viciado y húmedo. Miras con tanta atención el techo por si hay avisperos o vempiros que no ves que has puesto los pies sobre un inmenso termitero. Las termitas se ponen furiosas contigo porque has destruido su casa. No es que vayan muy deprisa, pero si no sales de aquí pronto, quizá no salgas nunca. ¿Qué pasadizo tomas? ",
+"choices": [
+      {
+        "text": "El túnel que va hacia el N sobre el que pone: El 30 por ciento del 20 por ciento de 200 vacas es más que el 20 por ciento del 30 por ciento de las mismas vacas.",
+        "link": "23"
+      },
+      {
+        "text": "El túnel que va hacia el E sobre el que pone: El 30 por ciento del 20 por ciento de 200 vacas es menos que el 20 por ciento del 30 por ciento de las mismas vacas.",
+        "link": "24"
+      },
+      {
+        "text": "El túnel que va hacia el W sobre el que pone: El 20 por ciento del 10 por ciento de 100 vacas son 2 vacas.",
+        "link": "21N"
+      },
+      {
+        "text": "El túnel que va hacia el S sobre el que pone: El 50 por ciento del 50 por ciento es el 25 por ciento.",
+        "link": "25"
+      }
+    ],
+    "time": "120"
+  },
+  "22W": {
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente y la vuelves a cerrar, asegurándote esta vez de que no queda ninguna rendija abierta y dejando atrás (definitivamente) el horrible zumbido que anunciaba tu muerte. Caminas 1 km más hacia el E y Llegas a una sala de la que parten 4 pasadizos estrechos inmundos llenos de un aire cada vez más viciado y húmedo. Miras con tanta atención el techo por si hay avisperos o vempiros que no ves que has puesto los pies sobre un inmenso termitero. Las termitas se ponen furiosas contigo porque has destruido su casa. No es que vayan muy deprisa, pero si no sales de aquí pronto, quizá no salgas nunca. ¿Qué pasadizo tomas? ",
+"choices": [
+      {
+        "text": "El túnel que va hacia el N sobre el que pone: El 30 por ciento del 20 por ciento de 200 vacas es más que el 20 por ciento del 30 por ciento de las mismas vacas.",
+        "link": "23"
+      },
+      {
+        "text": "El túnel que va hacia el E sobre el que pone: El 30 por ciento del 20 por ciento de 200 vacas es menos que el 20 por ciento del 30 por ciento de las mismas vacas.",
+        "link": "24"
+      },
+      {
+        "text": "El túnel que va hacia el W sobre el que pone: El 20 por ciento del 10 por ciento de 100 vacas son 2 vacas.",
+        "link": "21N"
+      },
+      {
+        "text": "El túnel que va hacia el S sobre el que pone: El 50 por ciento del 50 por ciento es el 25 por ciento.",
+        "link": "25"
+      }
+    ],
+    "time": "120"
+  },
+  "25": {
+    "text": "Llegas a una sala de la que parten 4 pasadizos aún más estrechos e inmundos llenos de un aire cada vez más viciado, húmedo y pútrido. Cuando iluminas las paredes, nada de lo que has visto hasta ahora resulta ser tan terrible y repugnante como las ratas que salen por grietas y agujeros de sus madrigueras. Lo que hay que hacer por las matemáticas! Pero no hace falta dejarse el pellejo aquí, con estas ratas hambrientas. Hay que encontrar rápidamente lo que hemos venido a buscar, que debe de estar cerca. ¿Qué pasadizo tomas? ",
+"choices": [
+      {
+        "text": "El túnel que va hacia el N sobre el que pone: Cuando tiro un dado es muy difícil que salga 6.",
+        "link": "22"
+      },
+      {
+        "text": "El túnel que va hacia el E sobre el que pone: Cuando tiro un dado y sale 6, es menos probable que vuelva a salir 6 la siguiente vez que lo tire. ",
+        "link": "26"
+      },
+      {
+        "text": "El túnel que va hacia el W sobre el que pone: Cada vez que tiro un dado tengo las mismas probabilidades de que salga 6.",
+        "link": "28"
+      },
+      {
+        "text": "El túnel que va hacia el S sobre el que pone: Si tiro dos dados y en uno me sale un 6, es más probable que me salga un 5 que un 6 en el otro",
+        "link": "26"
+      }
+    ],
+    "time": "120"
+  },
+  "28": {
+    "text": "Has llegado a una sala sin salida en la que hay una inscripción escrita en glifos mayas que, traducida, dice así: Enhorabuena, valiente. Has superado todas las pruebas y has demostrado que, el tesoro más precioso que encierra este laberinto (la sabiduría matemática) ya lo tienes en tu corazón. Guárdalo y cultívalo para no perderlo. Ahora, valeroso guerrero de los números, úsalo para salir de aquí y retornar a tu reino, donde entregarás ese tesoro a todos tus hermanos.",
+"choices": [
+      {
+        "text": "Ahora tienes que salir del laberinto: date media vuelta y vete hacia aquí:",
+        "link": "25"
+      }
+       ],
+    "time": "120"
+  },
+  "19": {
+    "text": "En base 2, 101 es 1 más 0 veces 2 más 2 al cuadrado, que son 5. Tu piel es horadada por 10000 aguijones (en base 10).... ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "23": {
+    "text": "Pues no, no es más. Vas a ser, merecidamente, pasto de las voraces hormigas... Es mejor repasar los tantos por ciento y la proporcionalidad. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "24": {
+    "text": "Pues no, no es menos. Vas a ser, merecidamente, pasto de las voraces hormigas... Es mejor repasar los tantos por ciento y la proporcionalidad. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "26": {
+    "text": "Vaya, vaya.... Me parece que alguien va a ser pasto de los vampiros... Sólo te van a chupar la sangre porque el cerebro lo tienes demasiado vacío para alimentar a tanto vampiro... Has de volver a empezar. La trigonometría es fuente de mucha alegría.",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "29": {
+    "text": "Tu suerte está echada: las ratas te van a comer y vas a tener que repasar la probabilidad y la estadística. No te dediques a los juegos de azar. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "30": {
+    "text": "Pues no: es 1/4. Por aquí no se puede escapar del veneno, que inunda tus pulmones y te manda de nuevo a estudiar fracciones. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "31": {
+    "text": "Menudo cateto que estás hecho tú. El tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote la boca (para que no digas más sandeces). Has de volver a empezar y estudiar el teorema de Pitágoras. ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "33": {
+    "text": "En todo caso semejantes... Puede que sean o puede que no sean iguales. Lo que sí que pasa es que el tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote los ojos.... ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "34": {
+    "text": "¡No hay triángulos así, se llamen como se llamen! El tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote la cabeza... Has de volver a empezar. Repasa la trigonometría.",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "35": {
+    "text": "Pues no: (a-b)(a-b) es el cuadrado de a más el cuadrado de b menos el doble del producto de a por b.... Por aquí no se puede escapar del veneno, que inunda tus pulmones y te manda de nuevo a estudiar las identidades notables... ",
+    "choices": [
+      {
+        "text": "Has de volver a empezar.",
+        "link": "start"
+      }
+    ],
+    "time": "120"
+  },
+  "death": {
+    "text": "You've died! Blah blah blah",
+    "choices": [
+      {
+        "text": "Start again",
+        "link": "start"
+      }
+    ]
+  },
+  "repetir1N": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar porque el monstruo se está acercando. ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "1N"
+      }
+    ]
+  },
+
+  "repetir1S": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar porque el monstruo se está acercando. ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "1S"
+      }
+    ]
+  },
+  "repetir2N": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar porque el monstruo se está acercando. ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "2N"
+      }
+    ]
+  },
+  "repetir2S": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar porque el monstruo se está acercando y está rugiendo de rabia.",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "2S"
+      }
+    ]
+  },
+  "repetir4E": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. Casi no tienes espacio para moverte. Los muros se siguen acercando.",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "4E"
+      }
+    ]
+  },
+  "repetir4W": {
+    "text": "La puerta no se abre. Date prisa en pensar. Casi puedes sentir la presencia de las momias a tu lado. ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "4W"
+      }
+    ]
+  },
+  "repetir7E": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. Tus pulmones no van a aguantar mucho más! ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "7E"
+      }
+    ]
+  },
+  "repetir9NW": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque la tarántula te ha visto y las pisadas de las momias se aproximan...  ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "9NW"
+      }
+    ]
+  },
+  "repetir7W": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. Hay que huir de la maldición. ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "7W"
+      }
+    ]
+  },
+  "repetir9SE": {
+    "text": "La puerta no se abre. Concéntrate y vuelve a intentarlo, pero date prisa porque el tentáculo está muy cerca.",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "9SE"
+      }
+    ]
+  },
+  "repetir10N": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque el monstruo/profesor se aproxima rugiendo.",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "10N"
+      }
+    ]
+  },
+   "repetir10S": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque el tentáculo se está deslizando casi a tus pies...",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "10S"
+      }
+    ]
+  },
+  "repetir11NE": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque ¡te estás ahogando!",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "11NE"
+      }
+    ]
+  },
+  "repetir11SW": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque el tentáculo se está deslizando casi a tus pies...",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "11SW"
+      }
+    ]
+  },
+  
+  "repetir13N": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque cada vez hay más gas venenoso.",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "13N"
+      }
+    ]
+  },
+  "repetir13W": {
+    "text": "La puerta no se abre. Vuelve a intentarlo, pero date mucha prisa porque el tentáculo se acerca babeando... ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "13W"
+      }
+    ]
+  },
+  "repetir14NW": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. ¡Tus pulmones no van a aguantar mucho más!",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "14NW"
+      }
+    ]
+  },
+  "repetir14E": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. ¡El ruido de las alas se acerca! ¡Ya casi están aquí!",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "14E"
+      }
+    ]
+  },
+  "repetir16N": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. ¡Las avispas ya están aquí!",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "16N"
+      }
+    ]
+  },
+  "repetir16S": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. ¡El ruido de las alas se acerca! ¡Ya casi están aquí! ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "16S"
+      }
+    ]
+  },
+    "repetir18E": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar.¡Las avispas ya están aquí!",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "18E"
+      }
+    ]
+  },
+  "repetir18W": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar. ¡Tus pulmones no van a aguantar mucho más! ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "18W"
+      }
+    ]
+  },
+  "repetir20W": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar.¡Las avispas ya están aquí! ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "20W"
+      }
+    ]
+  },
+  "repetir21W": {
+    "text": "La puerta no se abre. Vuelve a intentarlo. Date prisa en pensar.¡Las avispas ya están aquí! ",
+    "choices": [
+      {
+        "text": "Inténtalo de nuevo",
+        "link": "21W"
+      }
+    ]
+  },
+
+  "salida": {
+    "text": "La puerta se abre rechinando sobre sus goznes. Tras recorrer 1 km de túnel hacia el N, consigues salir del laberinto. Tu recorrido ha acabado y te encuentras de nuevo en la entrada..."
+  }
+}
