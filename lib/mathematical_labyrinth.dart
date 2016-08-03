@@ -78,9 +78,14 @@ class MathematicalLabyrinth extends PolymerElement {
 
         /// If the node is a 'wrong' node (one that tells you to repeat the problem
         /// again) store the remaining time from the question in the 'remainingTime'
-        /// variable
+        /// variable, minus the penalization from a wrong choice
         if (node.containsKey('repeating') && node['repeating'] == 'true') {
-          remainingTime = timerLabel - wrongAnswerPenalty; /// TODO: check if this works and add it to documentation
+          remainingTime = timerLabel - wrongAnswerPenalty;
+
+          /// If the remaining time is less than 0, set it to 0 to avoid showing a negative counter
+          if (remainingTime <= 0) {
+            remainingTime = 0;
+          }
         }
 
         /// If the node has a time limit to solve the problem
@@ -132,6 +137,7 @@ class MathematicalLabyrinth extends PolymerElement {
               timerLabelClass = 'hidden';
               timerStopwatch.stop();
               timerStopwatch.reset();
+              secondCounter.cancel();
 
               /// Load the node to which the player should be sent if he doesn't complete the task in time
               loadLabyrinthNode(node['time']['link']);
