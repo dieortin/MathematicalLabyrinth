@@ -3,7 +3,7 @@
     "text": "Tras largas jornadas de camino por la selva, has llegado por fin a tu destino. Nadie quiso acompañarte porque nadie creía que aquel viejo manuscrito que hablaba de una gran tesoro escondido en la cripta de un templo perdido en medio de la selva amazónica, fuese auténtico. Nadie, salvo tú, pudo descifrar los glifos de esa antigua civilización de amantes de las matemáticas que describían el camino y nadie tuvo el valor de atravesar ríos donde los cocodrilos y las pirañas vigilan sin descanso, ciénagas infestadas de mosquitos, zonas de matorral invadidas de reptiles venenosos... Ahora todas esas penalidades quedan atrás. Ante ti se abre la puerta de un antiguo templo ahora cubierto de vegetación que es la prueba de que lo que el manuscrito decía es cierto. Al menos, en parte, porque ¿cuál puede ser el tesoro ante el que los poderosos se humillan y los corazones de los sabios se alegran? Estás a punto de averiguarlo. Sólo tienes que entrar, encontrarlo y volver a salir. Quizá no resulte fácil. Habrá obstáculos que superar y trampas que evitar. . Una mala elección podría costarte muy cara. Y has de ser rápido. Si esperas demasiado tiempo en un mismo sitio, el peligro aumenta. Recuerda que la selva te rodea. Pero un buscador de tesoros tiene que buscar también el tesoro más preciado por los sabios: el conocimiento. Has de aprovechar para trazar un mapa de tu recorrido, apuntando las distancias y las direcciones en las que te desplazas, dónde están los obstáculos, los cruces... Y, finalmente, dónde está el tesoro. Tendrás que tomar notas para que no se te olviden los detalles y dar cuenta precisa de tu aventura cuando vuelvas al mundo civilizado. Ahora, en cuanto estés mentalmente preparado y dispuesto a superar esta prueba, mira al interior estrecho y oscuro del templo, enciende tu linterna, respira hondo y...",
     "choices": [
       {
-        "text": "Entraaaaaaaaaaaaaaaaa",
+        "text": "Entra",
         "link": "1N"
       }
     ]
@@ -311,7 +311,7 @@
     }
   },
   "5E": {
-    "text": "Estupendo. La puerta se ha abierto. Caminas 1 km mas hacia el O  y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. No tienes mas que unos segundos para elegir qué camino tomar porque el monstruo te va a coger. Decides:",
+    "text": "Estupendo. La puerta se ha abierto. Caminas 1 km mas hacia el O  y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. Decides:",
     "choices": [
       {
         "text": "Tomar  el túnel que va hacia el SE sobre el que pone: La raíz del producto es igual al producto de las raíces",
@@ -332,7 +332,7 @@
     }
   },
   "5NW": {
-    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba, y caminas raíz de 2 kms hacia el NO dejando atrás al tentáculo, que no puede estirarse más para alcanzarte, y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. No tienes mas que unos segundos para elegir qué camino tomar porque el monstruo te va a coger. Decides:",
+    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba, y caminas raíz de 2 kms hacia el NO dejando atrás al tentáculo, que no puede estirarse más para alcanzarte, y llegas a una sala de la que parten 3 tenebrosos pasillos. En los muros hay momias metidas en sus sarcófagos con inscripciones de aspecto amenazante. Es mejor largarse de aquí cuanto antes. No tienes mas que unos segundos para elegir qué camino tomar. Decides:",
     "choices": [
       {
         "text": "Tomar  el túnel que va hacia el SE sobre el que pone: La raíz del producto es igual al producto de las raíces",
@@ -1216,7 +1216,7 @@
     }
   },
   "17E": {
-    "text": "La puerta se ha abierto y  la cruzas rápidamente y esta vez, aunque las termitas están empezando a pasar, te aseguras de dejarla herméticamente cerrada. Caminas 1 Km hacia el O y y llegas a una sala de la que parten 4 pasadizos inmundos llenos de aire viciado y húmedo. Al desplazarte tocas con la cabeza la bóveda, que es muy baja y al fijarte ves que se trata de decenas de enjambres de avispas caníbales. No te puedes parar a pensar queé harán ahí esas avispas porque al tocar su enjambre las has despertado y se empieza a oír un zumbido que crece. Hay que salir corriendo, pero ¿en qué dirección?. Rápidamente decides: ",
+    "text": "La puerta se ha abierto y  la cruzas rápidamente y esta vez, aunque las termitas están empezando a pasar, te aseguras de dejarla herméticamente cerrada. Caminas 1 Km hacia el O y y llegas a una sala de la que parten 4 pasadizos inmundos llenos de aire viciado y húmedo. Al desplazarte tocas con la cabeza la bóveda, que es muy baja y al fijarte ves que se trata de decenas de enjambres de avispas caníbales. No te puedes parar a pensar qué harán ahí esas avispas porque al tocar su enjambre las has despertado y se empieza a oír un zumbido que crece. Hay que salir corriendo, pero ¿en qué dirección?.Rápidamente decides: ",
 "choices": [
       {
         "text": "Tomar el túnel que va hacia el N, en el que  pone: 101 es 8 en base 2.",
