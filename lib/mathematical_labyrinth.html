@@ -73,6 +73,12 @@
                 text-align: center;
             }
 
+            @media screen and (max-width: 620px) {
+                div.timerLabel {
+                    top: 20px;
+                }
+            }
+
         </style>
         <div id="activeNodeContainer">
             <div id="historyText">
@@ -89,7 +95,7 @@
                 </ul>
             </div>
         </div>
-        <button on-click="{{testAllNodes}}">Test every node in the file</button>
+        <!--<button on-click="{{testAllNodes}}">Test every node in the file</button>-->
 
         <core-animation id="activeNodeContainerFadeIn" duration="500">
             <core-animation-keyframe>

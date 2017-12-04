@@ -51,6 +51,7 @@ class MathematicalLabyrinth extends PolymerElement {
   void handleChoice(Event event, Object detail, LIElement sender) {
     String coordinates = sender.attributes['link'];
     loadLabyrinthNode(coordinates);
+    window.scrollTo(0, 0);
   }
 
   /// This function replaces the text and choices in our html file with the ones from the node that matches
@@ -213,6 +214,7 @@ class MathematicalLabyrinth extends PolymerElement {
 	attributeChanged(String name, String oldValue, String newValue) {
 	}*/
 
+/*
 
   void testAllNodes() {
     window.console.log('///////// TESTING ALL NODES /////////');
@@ -229,5 +231,5 @@ class MathematicalLabyrinth extends PolymerElement {
         }
       }
     });
-  }
+  }*/
 }

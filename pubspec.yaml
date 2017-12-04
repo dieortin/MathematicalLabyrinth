@@ -1,13 +1,13 @@
-name: 'MathematicalLabyrinth'
+name: 'mathematical_labyrinth'
 version: 0.0.1
 description: Labyrinth-style game in which the player must solve mathematical problems to advance.
 author: Diego Ortín <dieortin@gmail.com>
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=1.0.0 <2.0.0-dev'
 dependencies:
   browser: any
-  polymer: '>=0.15.4 <0.16.0'
-  paper_elements: '>=0.6.1 <0.7.0'
+  polymer: ">=0.16.0 <0.17.0"
+  paper_elements: "^0.7.1+2"
 transformers:
 - polymer:
     entry_points: web/index.html
