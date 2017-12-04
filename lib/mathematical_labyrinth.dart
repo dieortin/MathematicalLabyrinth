@@ -59,8 +59,8 @@ class MathematicalLabyrinth extends PolymerElement {
   /// Coordinates must be provided in the format 'ND', where N= the number of the node and D= the direction
   /// the player is going to through the node.
   void loadLabyrinthNode(String nodeCoordinates) {
-    /// TODO: remove debugging logs when finished
-    window.console.log('Loading node ' + nodeCoordinates);
+    /// Debugging log, use if needed
+    //window.console.log('Loading node ' + nodeCoordinates);
 
     Map node;
     try {
@@ -153,13 +153,13 @@ class MathematicalLabyrinth extends PolymerElement {
         activeNodeContainerFadeIn.play();
         //activeNodeContainerFadeIn.play();
 
-        /// TODO: remove debugging logs when finished
-        window.console.log('Node loaded succesfully!');
+        /// Debugging log, use if needed
+        //window.console.log('Node loaded succesfully!');
       }
     } on Exception {
-      /// TODO: remove debugging logs when finished
-      window.console.log('No node exists for coordinates: ' + nodeCoordinates);
-      window.alert('No node exists for coordinates: ' + nodeCoordinates);
+      /// Debugging logs, use if needed
+      //window.console.log('No node exists for coordinates: ' + nodeCoordinates);
+      //window.alert('No node exists for coordinates: ' + nodeCoordinates);
     }
   }
 
