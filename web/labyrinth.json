@@ -220,7 +220,7 @@
     }
   },
   "3E": {
-    "text": "La puerta se ha abierto y tú la cruzas rápidamente porque parece que las caras de mayas de los glifos están empezando a mirarte mal. No te pasa nada. Caminas 1 km mas hacia el W  y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar porque el monstruo te va a coger. Decides: ",
+    "text": "La puerta se ha abierto y tú la cruzas rápidamente porque parece que las caras de mayas de los glifos están empezando a mirarte mal. No te pasa nada. Caminas 1 km mas hacia el O y llegas a una sala de la que parten 4 túneles. El monstruo que te persigue desde el principio está cerca. No tienes más que unos segundos para elegir qué camino tomar porque el monstruo te va a coger. Decides: ",
     "choices": [
       {
         "text": "Tomar el túnel que va hacia el N sobre el que pone: Las matemáticas son un conjunto de reglas independientes entre sí",
@@ -360,7 +360,7 @@
         "link": "start"
       }
     ],
-   "repeating": "true" 
+   "repeating": "true"
   },
   "7E": {
     "text": "Has dejado atrás el veneno. Recorres 1 km de túnel hacia el O, pero encuentras otra puerta cerrada con lo que parecen glifos mayas inscritos sobre ella que parecen contener una maldición. Por si acaso, es mejor que cruces la puerta cuanto antes. Hay varias llaves debajo de una pregunta: de los 60 alumnos que practican deporte en un colegio, un 55% practica futbol, el 24% practica baloncesto, el 6% se dedica a la natación y el resto juega al tenis. ¿Cuántos alumnos de ese colegio juegan al tenis?",
@@ -890,7 +890,7 @@
     }
   },
   "12NW": {
-    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba y, cuando te das la vuelta y ves a las momias, ¡se lo echas también! Asustadas, las momias se vuelven a sus sarcófagos y tu rompes la tela de araña y caminas raíz de 2 kms hacia el SE y llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar. Decides:",
+    "text": "Justo a tiempo. Con esa llave la puerta del armario se ha abierto y has cogido el insecticida. Se lo echas a la tarántula, que cae patas arriba y, cuando te das la vuelta y ves a las momias, ¡se lo echas también! Asustadas, las momias se vuelven a sus sarcófagos y tu rompes la tela de araña y caminas raíz de 2 kms hacia el SE y llegas a una sala de la que parten 8 tenebrosos pasillos. Hay pulpo gigante con un enorme tentáculo obstaculizando cada uno de los pasillos. Parece débil. Quizá algunos de los tentáculos no puedan atraparte si te lanzas corriendo hacia él. Misteriosamente, cada tentáculo lleva escrito un lema.No tienes mas que unos segundos para elegir qué camino tomar, porque el monstruo te va a coger. Decides:",
     "choices": [
       {
         "text": "Tomas el tentáculo que está sobre el túnel que va hacia el N en el que pone: Dos triángulos con los 3 lados iguales son iguales",
@@ -1452,7 +1452,7 @@
     }
   },
   "21E": {
-    "text": "Recorres 1 km más hacia el oeste y encuentras una curiosa puerta cerrada con agujeros por los que podrín entrar los dedos de una mano. Quizá se abra se metes el dedo en el orificio correcto. Hay una pregunta escrita sobre la puerta, e inscripciones sobre los agujeros. El ruido de miles de minúsculas patitas sobre el suelo indica que las termitas no andan lejos. Hay que poner tierra por medio. En un plano hay dibujadas cuatro circunferencias. ¿Cuál es el máximo número de puntos de corte entre ellas?.",
+    "text": "",
 "choices": [
       {
         "text": "Agujero para el dedo pulgar:8",
@@ -1576,7 +1576,7 @@
         "link": "start"
       }
     ],
-   "repeating": "true" 
+   "repeating": "true"
   },
   "23": {
     "text": "Pues no, no es más. Vas a ser, merecidamente, pasto de las voraces hormigas... Es mejor repasar los tantos por ciento y la proporcionalidad.",
@@ -1586,7 +1586,7 @@
         "link": "start"
       }
     ],
-   "repeating": "true" 
+   "repeating": "true"
   },
   "24": {
     "text": "Pues no, no es menos. Vas a ser, merecidamente, pasto de las voraces hormigas... Es mejor repasar los tantos por ciento y la proporcionalidad.",
@@ -1596,7 +1596,7 @@
         "link": "start"
       }
     ],
-   "repeating": "true" 
+   "repeating": "true"
   },
   "26": {
     "text": "Vaya, vaya.... Me parece que alguien va a ser pasto de los vampiros... Sólo te van a chupar la sangre porque el cerebro lo tienes demasiado vacío para alimentar a tanto vampiro... Has de volver a empezar. La trigonometría es fuente de mucha alegría.",
@@ -1606,7 +1606,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "29": {
     "text": "Tu suerte está echada: las ratas te van a comer y vas a tener que repasar la probabilidad y la estadística. No te dediques a los juegos de azar.",
@@ -1616,7 +1616,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "30": {
     "text": "Pues no: es 1/4. Por aquí no se puede escapar del veneno, que inunda tus pulmones y te manda de nuevo a estudiar fracciones.",
@@ -1626,7 +1626,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "31": {
     "text": "Menudo cateto que estás hecho tú. El tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote la boca (para que no digas más sandeces). Has de volver a empezar y estudiar el teorema de Pitágoras.",
@@ -1636,7 +1636,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "33": {
     "text": "En todo caso semejantes... Puede que sean o puede que no sean iguales. Lo que sí que pasa es que el tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote los ojos....",
@@ -1646,7 +1646,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "34": {
     "text": "¡No hay triángulos así, se llamen como se llamen! El tentáculo es más fuerte que tus conocimientos y mueres aplastado por la presión del mismo con una ventosa viscosa tapándote la cabeza... Has de volver a empezar. Repasa la trigonometría.",
@@ -1656,7 +1656,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "35": {
     "text": "Pues no: (a-b)(a-b) es el cuadrado de a más el cuadrado de b menos el doble del producto de a por b.... Por aquí no se puede escapar del veneno, que inunda tus pulmones y te manda de nuevo a estudiar las identidades notables...",
@@ -1666,7 +1666,7 @@
         "link": "start"
       }
     ],
-  "repeating": "true"  
+  "repeating": "true"
   },
   "death": {
     "text": "You've died! Blah blah blah",
