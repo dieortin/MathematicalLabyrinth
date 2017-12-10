@@ -53,7 +53,7 @@ Each chamber is a new object contained inside the global object of the JSON file
 
 You can see an example of a chamber object below:
 
-``
+```
 "1S": {
 
     "text": "La puerta se abre rechinando sobre sus goznes. Tras recorrer 1 km de túnel hacia el N, encuentras una puerta cerrada con un laberinto pintado sobre ella. En 2 minutos el monstruo te alcanzará. Te encuentras con tres cajas una caja de color rosa, una caja de color verde y otra de color azul. La llave que abre la puerta del laberinto está en una de ellas. Cada caja tiene un mensaje escrito en el exterior: CAJA ROSA: La llave está en esta caja CAJA VERDE: La llave no está en esta caja CAJA AZUL: “La llave no está en la caja rosa. A lo sumo, uno de los tres mensajes es verdadero. Sólo puedes abrir una caja. ¿Cuál abrirás? ",
@@ -95,7 +95,7 @@ You can see an example of a chamber object below:
     }
 
   }
-``
+```
 
 The fields found on the above example are the following:
 * text: The text describing each chamber, the question to solve etc.
