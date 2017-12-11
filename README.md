@@ -1,4 +1,5 @@
 # Mathematical Labyrinth
+[![Build Status](https://travis-ci.org/dieortin/MathematicalLabyrinth.svg?branch=master)](https://travis-ci.org/dieortin/MathematicalLabyrinth)
 
 ![Screenshot](https://user-images.githubusercontent.com/6683694/33585553-27b3aef8-d965-11e7-8da8-ff1d3aafa875.png)
 
