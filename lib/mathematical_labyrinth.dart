@@ -107,7 +107,6 @@ class MathematicalLabyrinth extends PolymerElement {
 
         /// If the node has a time limit to solve the problem
         if (node.containsKey('time')) {
-
           /// Reset the stopwatch just in case there's a previous one running
           timerStopwatch.reset();
 
@@ -141,14 +140,12 @@ class MathematicalLabyrinth extends PolymerElement {
           /// Set a loop that will check the stopwatch every 1 second
           Duration oneSecond = new Duration(seconds: 1);
           secondCounter = new Timer.periodic(oneSecond, (Timer _) {
-
             /// Calculate the remaning time based on the maximum time and the elapsed time from the stopwatch,
             /// and set it to the timer label
             timerLabel = fullTimer - timerStopwatch.elapsed.inSeconds;
 
             /// Check if the time is already over
             if (timerLabel <= 0) {
-
               /// Hide and stop the stopwatch just in case the node doesn't exist and the user gets stuck,
               /// to prevent him seeing a negative count
               timerLabelClass = 'hidden';
@@ -186,7 +183,6 @@ class MathematicalLabyrinth extends PolymerElement {
   /// property observers set up, event listeners attached).
   @override
   ready() {
-
     /// Set the element with id 'targetId' as target of the animation with id 'animationId',
     /// and return the animation so that it can be assigned to a global variable to make
     /// its play() method available to other parts of the code

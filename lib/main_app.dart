@@ -22,7 +22,8 @@ import 'package:polymer/polymer.dart';
 /// A Polymer `<main-app>` element.
 @CustomTag('main-app')
 class MainApp extends PolymerElement {
-  @observable String reversed = '';
+  @observable
+  String reversed = '';
 
   /// Constructor used to create instance of MainApp.
   MainApp.created() : super.created();
